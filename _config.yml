@@ -5,7 +5,7 @@ title: Jan Blog
 description: Jan的个人博客
 keywords: TMaize,Blog,Java,Html,JavaScript
 author: Jan
-footerText: 'Copyright © 2016 皖ICP备16016174号'
+footerText: 'Copyright © 2024 皖ICP备16016174号'
 
 # 这些不要动
 permalink: /posts/:year/:month/:day/:title.html
