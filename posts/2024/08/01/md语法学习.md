@@ -101,18 +101,17 @@
 
 ![图片名] (路径)  
 
-![logo](../static/img/logo.png)
+![logo](logo.jpg)
 
 
 **图片链接**
 
-​	[![图片名] (路径) ”Title“] (跳转链接)  
+​[![图片名] (路径) ”Title“] (跳转链接)  
 
-[![github](../static/img/logo.jpg '点击跳转到GitHub')](https://github.com/jan3540")
+[![github](logo.jpg '点击跳转到GitHub')](https://github.com/jan3540)
 
 
 ## 文本对齐处理
-
 
 Markdown语法本身没有居中，但Markdown中支持基本的HTMl语法，可以使用HTML语法。
 
@@ -133,4 +132,4 @@ Markdown语法本身没有居中，但Markdown中支持基本的HTMl语法，可
 
 
 
-<p align="right">--2024年08-01</p>
+<p align="right">作于2024年08-01</p>
