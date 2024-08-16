@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: Easy-Print简印
-categories: [Python，脚本]
+categories: [Linux，Python，脚本]
 ---
 
 # Easy-Print--简印
