@@ -150,3 +150,9 @@ sudo install.sh
 sudo uninstall.sh
 
 ```
+
+
+
+
+## test
+![img](../posts/2025/11/30/test_image.png)
