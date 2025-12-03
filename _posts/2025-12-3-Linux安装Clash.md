@@ -57,6 +57,7 @@ git clone --branch feat-init --depth 1 https://gh-proxy.org/https://github.com/n
 
 ```
 ## 三、Clash 常用命令
+
 ```sh
 命令格式
 
@@ -93,6 +94,7 @@ clashctl status
 ```
 
 ## 四、订阅更新操作
+
 ```sh
 手动更新订阅
 
@@ -119,6 +121,7 @@ clashupdate log
 面板参数填写
 
 访问 9090 端口后会弹出配置框，参数填写规则：
+
 | 参数 | 填写说明 |
 |------|----------|
 | API Base URL | 云服务器填「公网 IP:9090」（如 123.123.123.123:9090）<br>本地服务器填 127.0.0.1:9090 |
