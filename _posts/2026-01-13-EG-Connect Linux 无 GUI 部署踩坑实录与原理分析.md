@@ -214,7 +214,7 @@ systemd
 
 ### 方式一
 
-```Bash
+```bash
 #1.更新并下载相关组件
 
 jjt@jjt:~$ sudo apt update
@@ -263,7 +263,7 @@ jjt@jjt:~$ /opt/apps/com.egconnect/files/EG-Connect &
 - 使用 sudo ps -ef |grep EG显示有EG的进程
 - 使用curl -I https://www.google.com返回200代码
 
-```Bash
+```bash
 jjt@jjt:~$ sudo ps -ef |grep EG
 jjt        11554   11553  5 11:02 pts/7    00:00:00 /opt/apps/com.egconnect/files/EG-Connect
 jjt        11768   10598  0 11:02 pts/5    00:00:00 grep --color=auto EG
@@ -285,7 +285,7 @@ jjt@jjt:~$ sudo kill <进程id>
 
 SSH会话环境测试正常完毕后，再使用xorg的方式启动EG
 
-```Bash
+```bash
 #6.创建 runtime 目录（避免 Qt / Wayland 问题）
 jjt@jjt:~$ sudo mkdir -p /tmp/runtime-<用户名>
 jjt@jjt:~$ sudo chown jjt:jjt /tmp/runtime-<用户名>
@@ -326,7 +326,7 @@ HTTP/2 200  ##返回200表示成功访问
 
 使用脚本测试网络速率和稳定性
 
-```Bash
+```bash
 jjt@jjt:~$ ps -ef |grep EG
 jjt        11553       1  0 11:02 ?        00:00:00 SCREEN -dmS egconnect bash -c export DISPLAY=:2;  export XDG_RUNTIME_DIR=/tmp/runtime-root; /opt/apps/com.egconnect/files/EG-Connect
 jjt        11554   11553  0 11:02 pts/7    00:00:03 /opt/apps/com.egconnect/files/EG-Connect
@@ -373,7 +373,7 @@ jjt@lavm-9x9lehiak7:~$ ./test.sh
 架构图
 ![img](EG架构图.png)
 
-```Bash
+```bash
 #1.更新并下载相关组件
 
 jjt@jjt:~$ sudo apt update
@@ -422,7 +422,7 @@ jjt@jjt:~$ /opt/apps/com.egconnect/files/EG-Connect &
 - 使用 sudo ps -ef |grep EG显示有EG的进程
 - 使用curl -I https://www.google.com返回200代码
 
-```Bash
+```bash
 jjt@jjt:~$ sudo ps -ef |grep EG
 jjt        11554   11553  5 11:02 pts/7    00:00:00 /opt/apps/com.egconnect/files/EG-Connect
 jjt        11768   10598  0 11:02 pts/5    00:00:00 grep --color=auto EG
@@ -536,4 +536,4 @@ sudo systemctl stop eg-app
 
 
 脚本下载
-[xxx.zip 下载](test.sh)
+[test.sh](test.sh)
